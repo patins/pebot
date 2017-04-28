@@ -3,7 +3,7 @@ A bot that registers you for your required MIT PE class so you don't have to wak
 No longer works cause of Duo two factor auth, and I finished my PE requirements so why not release it
 
 ## What it looks like when it works
-``
+```
 2016-03-02 07:59:53,046 "GET /mitpe/student/registration/sectionList HTTP/1.1" 200 None
 2016-03-02 07:59:53,136 Got date 01/27/2016
 2016-03-02 07:59:58,141 Resetting dropped connection: edu-apps.mit.edu
@@ -16,4 +16,4 @@ No longer works cause of Duo two factor auth, and I finished my PE requirements 
 2016-03-02 08:00:25,738 "POST /mitpe/student/registration/create HTTP/1.1" 302 None
 2016-03-02 08:00:25,745 Resetting dropped connection: edu-apps.mit.edu
 2016-03-02 08:00:25,926 "GET /mitpe/student/registration/home HTTP/1.1"
-``
+```
